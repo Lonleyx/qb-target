@@ -98,6 +98,50 @@ Config.GlobalObjectOptions = {
 }
 
 Config.GlobalPlayerOptions = {
+	options = {
+        {
+            type = "client",
+            event = "police:client:CuffPlayerSoft",
+            icon = "fas fa-hands",
+            label = "Cuff / Uncuff",
+            job = {["police"] = 0, ["lspd"] = 0}
+        },
+        --[[ {
+            type = "client",
+            event = "police:client:takeoffmask",
+            icon = "fas fa-theater-masks",
+            label = "Unmask Suspect",
+            job = {["police"] = 0, ["lspd"] = 0}
+        }, ]]
+        {
+            type = "client",
+            event = "police:client:CuffPlayerSoft",
+            icon = "fas fa-hands",
+            label = "Cuff / Uncuff",
+            job = {["police"] = 0, ["lspd"] = 0}
+        },
+        --[[ {
+            type = "client",
+            event = "qb-phone:client:GiveContactDetails",
+            icon = "fas fa-phone",
+            label = "Give Contact Details",
+        }, ]]
+        {
+            type = "client",
+            event = "police:client:SearchPlayer",
+            icon = "fas fa-search-plus",
+            label = "Search Person",
+            job = {["police"] = 0, ["ambulance"] = 0} 
+        },
+        --[[ {
+            type = "client",
+            event = "targetfingerprint",
+            icon = "fas fa-fingerprint",
+            label = "Take Finger Print",
+            job = {["police"] = 0, ["lspd"] = 0} 
+        }, ]]
+    },
+    distance = 5.5,
 
 }
 
